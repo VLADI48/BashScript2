@@ -1,0 +1,27 @@
+#Readme!
+#The configuration file must be located in the same folder as the script!
+#Please enter the data according to the example variable = size
+
+#Times for checking the configuration file
+conf_time= 10
+
+#email for sending notifications
+email = bogatov.vv@mail.ru
+
+#Check timer
+check_time= 3
+
+#Timer for sending emails
+send_time = 20
+
+#The size of the folder larger than which the notification is triggered
+size = 555544
+
+#Enable (true) or disable (NULL/false) checking by folder size
+check_size = false
+
+#The number of files more than which the notification is triggered
+counts = 10
+
+#Enable (true) or disable (NULL/false) checking by the number of files in a folder
+check_counts = false
